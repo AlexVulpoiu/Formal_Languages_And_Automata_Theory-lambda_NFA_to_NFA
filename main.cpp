@@ -44,7 +44,7 @@ void citire_automat()
     f.close();
 }
 
-void calculare_inchidere__stari_finale()
+void calculare_inchidere_stari_finale()
 {
     int i, j, p;
 
@@ -183,7 +183,7 @@ void afisare_NFA()
 int main()
 {
     citire_automat();
-    calculare_inchidere__stari_finale();
+    calculare_inchidere_stari_finale();
     construire_NFA();
     eliminare_stari_identice();
     afisare_NFA();
